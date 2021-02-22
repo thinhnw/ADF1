@@ -1,6 +1,5 @@
-package com.asgmt1;
+package com.fptaptech.asgmt1;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {

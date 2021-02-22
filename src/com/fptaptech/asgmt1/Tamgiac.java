@@ -1,4 +1,4 @@
-package com.asgmt1;
+package com.fptaptech.asgmt1;
 import java.lang.Math;
 
 public class Tamgiac {

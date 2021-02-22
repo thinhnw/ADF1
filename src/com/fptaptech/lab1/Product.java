@@ -1,4 +1,4 @@
-package com.t2008m;
+package com.fptaptech.lab1;
 
 import java.math.BigDecimal;
 
