@@ -34,6 +34,7 @@ public class Fraction {
         return numerator + "/" + denominator;
     }
 
+
     public static int GCD(int a, int b) {
         while (b != 0) {
             int r = a % b;
@@ -96,5 +97,13 @@ public class Fraction {
         Fraction frRes = mul(frOne, frTwo.nghichDao());
         frRes = frRes.rutGon();
         return frRes;
+    }
+
+    public static void main(String args[]) {
+
+        Fraction frOne = new Fraction(1, 2);
+        Fraction frTwo = new Fraction(2, 3);
+
+        System.out.println(Fraction.add(frOne, frTwo).toString());
     }
 }
